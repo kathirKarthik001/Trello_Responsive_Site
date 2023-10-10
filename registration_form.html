@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        h1{
+            text-align: center;
+            background-color: lavenderblush;
+            padding: 10px;
+            margin: 0px;
+        }
+        body{
+            border: double black 2px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight:7px;
+        }
+        .frm{
+            text-align:left;
+            align-items: center;
+            padding: 50px;
+        }
+        .frm{
+            background-color:aliceblue;
+        }
+        input{
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <h1>Application Form</h1>
+
+    <div class="frm">
+    <form action="">
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="">
+        <br>
+        <label for="pass">Password :</label>
+        <input type="password" name="pass" id="">
+        <br>
+        <label for="dat">Date :</label>
+        <input type="date" name="dat" id="">
+        <br>
+        <label for="em">E-mail :</label>
+        <input type="email" name="em" id="">
+        <br>
+        <label for="gender">Gender :</label>
+
+        <input type="radio" name="gender" id="">Male
+        <input type="radio" name="gender" id="">Female
+        <br>
+        <label for="pl">Programing Languages :</label>
+        <input type="checkbox" name="pl" id="">C
+        <input type="checkbox" name="pl" id="">python
+        <input type="checkbox" name="pl" id="">java
+        <input type="checkbox" name="pl" id="">C++
+        <input type="checkbox" name="pl" id="">Javascript
+
+        <br>
+        <label for="dpt">Department :</label>
+        <select name="dpt" id="">
+            <option value="">none</option>
+            <option value="">CSE</option>
+            <option value="">AIDS</option>
+            <option value="">AIML</option>
+            <option value="">ECE</option>
+            <option value="">CSBS</option>
+        </select>
+        
+
+        <br>
+        <label for="fi">Uplaod Resume Here :</label>
+        <input type="file" name="fi" id="" multiple>
+        <br>
+        <label for="c">Favorite color :</label>
+        <input type="color" name="c" id="">
+        <br>
+        <p>I hereby certify that the information provided in this form is complete, true and correct to the best of my knowledge.</p>
+        <input type="submit" value="Submit">
+        <input type="Reset" value="reset">
+
+    </form>
+</div>
+</div>
+</body>
+</html>
